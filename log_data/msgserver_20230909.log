@@ -1,0 +1,328 @@
+[DEBUG] 2023/09/09 14:33:39 main.go:21 msgserver start...
+[DEBUG] 2023/09/09 14:33:42 main.go:32 msgserver try to close...
+[DEBUG] 2023/09/09 14:33:42 main.go:34 msgserver closed...
+[DEBUG] 2023/09/09 14:35:11 main.go:21 msgserver start...
+[DEBUG] 2023/09/09 14:35:14 main.go:32 msgserver try to close...
+[DEBUG] 2023/09/09 14:35:14 main.go:34 msgserver closed...
+[DEBUG] 2023/09/09 14:36:27 main.go:21 msgserver start...
+[DEBUG] 2023/09/09 14:36:32 main.go:32 msgserver try to close...
+[DEBUG] 2023/09/09 14:36:32 main.go:34 msgserver closed...
+[DEBUG] 2023/09/09 14:36:51 main.go:21 msgserver start...
+[DEBUG] 2023/09/09 14:36:54 main.go:32 msgserver try to close...
+[DEBUG] 2023/09/09 14:36:54 main.go:34 msgserver closed...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 14:38:55 main.go:21 msgserver start...
+[DEBUG] 2023/09/09 14:38:57 main.go:32 msgserver try to close...
+[DEBUG] 2023/09/09 14:38:57 main.go:34 msgserver closed...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 14:40:58 main.go:21 msgserver start...
+CoMsgHook initialised
+client connected%!(EXTRA string=client, string=mqttx_56fe974f)
+subscribed qos=[0]%!(EXTRA string=client, string=mqttx_56fe974f, string=filters, packets.Subscriptions=[{[] testtopic/# 0 map[] 0 0 false false false}])
+client connected%!(EXTRA string=client, string=mqttx_2f66b976)
+subscribed qos=[0]%!(EXTRA string=client, string=mqttx_2f66b976, string=filters, packets.Subscriptions=[{[] testtopic/# 0 map[] 0 0 false false false}])
+[DEBUG] 2023/09/09 14:46:12 main.go:32 msgserver try to close...
+[DEBUG] 2023/09/09 14:46:12 main.go:34 msgserver closed...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 14:46:18 main.go:21 msgserver start...
+CoMsgHook initialised
+client connected lient mqttx_2f66b976
+client connected lient mqttx_56fe974f
+subscribed qos=[0]%!(EXTRA string=client, string=mqttx_2f66b976, string=filters, packets.Subscriptions=[{[] testtopic/# 0 map[] 0 0 false false false}])
+subscribed qos=[0]%!(EXTRA string=client, string=mqttx_56fe974f, string=filters, packets.Subscriptions=[{[] testtopic/# 0 map[] 0 0 false false false}])
+received from client client mqttx_2f66b976 payload {
+  "msg": "hello"
+}
+published to client client mqttx_2f66b976 payload {
+  "msg": "hello"
+}
+received from client client mqttx_2f66b976 payload {
+  "msg": "hello"
+}
+published to client client mqttx_2f66b976 payload {
+  "msg": "hello"
+}
+received from client client mqttx_2f66b976 payload {
+  "msg": "2222222222222222222222222222"
+}
+published to client client mqttx_2f66b976 payload {
+  "msg": "2222222222222222222222222222"
+}
+received from client client mqttx_56fe974f payload {
+  "msg": "2222222222222222222222222222"
+}
+published to client client mqttx_56fe974f payload {
+  "msg": "2222222222222222222222222222"
+}
+received from client client mqttx_56fe974f payload {
+  "msg": "2222222222222222222222222222"
+}
+published to client client mqttx_56fe974f payload {
+  "msg": "2222222222222222222222222222"
+}
+received from client client mqttx_56fe974f payload {
+  "msg": "2222222222222222222222222222"
+}
+published to client client mqttx_56fe974f payload {
+  "msg": "2222222222222222222222222222"
+}
+received from client client mqttx_56fe974f payload {
+  "msg": "2222222222222222222222222222"
+}
+published to client client mqttx_56fe974f payload {
+  "msg": "2222222222222222222222222222"
+}
+received from client client mqttx_56fe974f payload {
+  "msg": "2222222222222222222222222222"
+}
+published to client client mqttx_56fe974f payload {
+  "msg": "2222222222222222222222222222"
+}
+client disconnected + client mqttx_56fe974f expire true, erro:read tcp 172.28.73.159:1883->172.28.64.1:57040: i/o timeout
+client connected lient mqttx_56fe974f
+client disconnected + client mqttx_2f66b976 expire true, erro:read tcp 172.28.73.159:1883->172.28.64.1:57041: i/o timeout
+client connected lient mqttx_2f66b976
+subscribed qos=[0]%!(EXTRA string=client, string=mqttx_2f66b976, string=filters, packets.Subscriptions=[{[] testtopic/# 0 map[] 0 0 false false false}])
+client disconnected + client mqttx_56fe974f expire true, erro:read tcp 172.28.73.159:1883->172.28.64.1:57509: i/o timeout
+client connected lient mqttx_56fe974f
+client disconnected + client mqttx_2f66b976 expire true, erro:read tcp 172.28.73.159:1883->172.28.64.1:57562: i/o timeout
+client connected lient mqttx_2f66b976
+subscribed qos=[0]%!(EXTRA string=client, string=mqttx_2f66b976, string=filters, packets.Subscriptions=[{[] testtopic/# 0 map[] 0 0 false false false}])
+[DEBUG] 2023/09/09 15:18:52 main.go:32 msgserver try to close...
+client disconnected + client mqttx_2f66b976 expire true, erro:read tcp 172.28.73.159:1883->172.28.64.1:58334: use of closed network connection
+[DEBUG] 2023/09/09 15:18:52 main.go:34 msgserver closed...
+client disconnected + client mqttx_56fe974f expire true, erro:read tcp 172.28.73.159:1883->172.28.64.1:57901: use of closed network connection
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 15:18:58 main.go:21 msgserver start...
+CoMsgHook initialised
+client connected lient mqttx_2f66b976
+subscribed qos=[0]%!(EXTRA string=client, string=mqttx_2f66b976, string=filters, packets.Subscriptions=[{[] testtopic/# 0 map[] 0 0 false false false}])
+client disconnected + client mqttx_2f66b976 expire true
+client connected lient mqttx_2f66b976
+received from client client mqttx_2f66b976 payload {
+  "msg": "2222222222222222222222222222"
+}
+published to client client mqttx_2f66b976 payload {
+  "msg": "2222222222222222222222222222"
+}
+received from client client mqttx_2f66b976 payload {
+  "msg": "2222222222222222222222222222"
+}
+published to client client mqttx_2f66b976 payload {
+  "msg": "2222222222222222222222222222"
+}
+[DEBUG] 2023/09/09 15:19:59 main.go:32 msgserver try to close...
+client disconnected + client mqttx_2f66b976 expire true, erro:read tcp 172.28.73.159:1883->172.28.64.1:58938: use of closed network connection
+[DEBUG] 2023/09/09 15:20:00 main.go:34 msgserver closed...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 15:20:02 main.go:21 msgserver start...
+CoMsgHook initialised
+client connected lient mqttx_2f66b976
+received from client client mqttx_2f66b976 payload {
+  "msg": "2222222222222222222222222222"
+}
+published to client client mqttx_2f66b976 payload {
+  "msg": "2222222222222222222222222222"
+}
+[DEBUG] 2023/09/09 15:25:17 main.go:32 msgserver try to close...
+client disconnected + client mqttx_2f66b976 expire true, erro:read tcp 172.28.73.159:1883->172.28.64.1:58950: use of closed network connection
+[DEBUG] 2023/09/09 15:25:17 main.go:34 msgserver closed...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 15:25:56 main.go:21 msgserver start...
+CoMsgHook initialised
+client connected lient mqttx_2f66b976 from 172.28.64.1:59179
+received from client client mqttx_2f66b976 payload {
+  "msg": "2222222222222222222222222222"
+}
+published to client client mqttx_2f66b976 payload {
+  "msg": "2222222222222222222222222222"
+}
+[DEBUG] 2023/09/09 15:27:33 main.go:32 msgserver try to close...
+client disconnected + client mqttx_2f66b976 expire true, erro:read tcp 172.28.73.159:1883->172.28.64.1:59179: use of closed network connection
+[DEBUG] 2023/09/09 15:27:33 main.go:34 msgserver closed...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 15:27:37 main.go:21 msgserver start...
+CoMsgHook initialised
+client connected lient mqttx_2f66b976 from 172.28.64.1:59261
+received from client client mqttx_2f66b976 payload {
+  "msg": "2222222222222222222222222222"
+}
+published to client client mqttx_2f66b976 payload {
+  "msg": "2222222222222222222222222222"
+}
+[DEBUG] 2023/09/09 15:31:51 main.go:32 msgserver try to close...
+client disconnected + client mqttx_2f66b976 expire true, erro:read tcp 172.28.73.159:1883->172.28.64.1:59261: use of closed network connection
+[DEBUG] 2023/09/09 15:31:51 main.go:34 msgserver closed...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 15:31:53 main.go:21 msgserver start...
+CoMsgHook initialised
+client connected lient mqttx_2f66b976 from 172.28.64.1:59432
+received from client client mqttx_2f66b976 payload {
+  "msg": "2222222222222222222222222222"
+}
+published to client client mqttx_2f66b976 payload {
+  "msg": "2222222222222222222222222222"
+}
+[DEBUG] 2023/09/09 15:38:36 main.go:32 msgserver try to close...
+client disconnected + client mqttx_2f66b976 expire true, erro:read tcp 172.28.73.159:1883->172.28.64.1:59432: use of closed network connection
+[DEBUG] 2023/09/09 15:38:36 main.go:34 msgserver closed...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 15:38:38 main.go:21 msgserver start...
+CoMsgHook initialised
+client connected lient mqttx_2f66b976 from 172.28.64.1:59668
+client disconnected + client mqttx_2f66b976 expire true
+client connected lient mqttx_2f66b976 from 172.28.64.1:59672
+[DEBUG] 2023/09/09 15:38:52 main.go:32 msgserver try to close...
+client disconnected + client mqttx_2f66b976 expire true, erro:read tcp 172.28.73.159:1883->172.28.64.1:59672: use of closed network connection
+[DEBUG] 2023/09/09 15:38:52 main.go:34 msgserver closed...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 15:39:50 main.go:21 msgserver start...
+CoMsgHook initialised
+client connected lient mqttx_2f66b976 from 172.28.64.1:59716
+client connected lient mqttx_2f66b976 from 172.28.64.1:59718
+client connected lient mqttx_2f66b976 from 172.28.64.1:59722
+[DEBUG] 2023/09/09 15:40:32 main.go:32 msgserver try to close...
+[DEBUG] 2023/09/09 15:40:32 main.go:34 msgserver closed...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 15:40:34 main.go:21 msgserver start...
+CoMsgHook initialised
+client connected lient mqttx_2f66b976 from 172.28.64.1:59749
+OnConnectAuthenticate
+client connected lient mqttx_2f66b976 from 172.28.64.1:59751
+OnConnectAuthenticate
+client connected lient mqttx_2f66b976 from 172.28.64.1:59754
+OnConnectAuthenticate
+[DEBUG] 2023/09/09 15:41:27 main.go:32 msgserver try to close...
+[DEBUG] 2023/09/09 15:41:27 main.go:34 msgserver closed...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 15:41:30 main.go:21 msgserver start...
+CoMsgHook initialised
+client connected lient mqttx_2f66b976 from 172.28.64.1:59797
+OnConnectAuthenticate xin2 password:xxx2
+[DEBUG] 2023/09/09 15:59:41 main.go:32 msgserver try to close...
+[DEBUG] 2023/09/09 15:59:41 main.go:34 msgserver closed...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 15:59:44 main.go:21 msgserver start...
+CoMsgHook initialised
+client connected lient mqttx_2f66b976 from 172.28.64.1:60738
+OnConnectAuthenticate xin2 password:xxx2
+[DEBUG] 2023/09/09 15:59:58 main.go:32 msgserver try to close...
+[DEBUG] 2023/09/09 15:59:58 main.go:34 msgserver closed...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 16:00:01 main.go:21 msgserver start...
+CoMsgHook initialised
+client connected lient mqttx_2f66b976 from 172.28.64.1:60743
+OnConnectAuthenticate xin2 password:xxx2
+client failed ACL check
+received from client client mqttx_2f66b976 payload {
+  "msg": "2222222222222222222222222222"
+}
+published to client client mqttx_2f66b976 payload {
+  "msg": "2222222222222222222222222222"
+}
+[DEBUG] 2023/09/09 16:03:59 main.go:32 msgserver try to close...
+client disconnected + client mqttx_2f66b976 expire true, erro:read tcp 172.28.73.159:1883->172.28.64.1:60743: use of closed network connection
+[DEBUG] 2023/09/09 16:03:59 main.go:34 msgserver closed...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 16:04:02 main.go:21 msgserver start...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 16:05:16 main.go:21 msgserver start...
+CoMsgHook initialised
+[DEBUG] 2023/09/09 16:13:26 main.go:32 msgserver try to close...
+[DEBUG] 2023/09/09 16:13:26 main.go:34 msgserver closed...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 16:14:36 main.go:21 msgserver start...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 16:19:42 main.go:21 msgserver start...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 16:27:57 main.go:21 msgserver start...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 16:41:38 main.go:21 msgserver start...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 16:47:42 main.go:21 msgserver start...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 16:49:04 main.go:21 msgserver start...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 16:52:53 main.go:21 msgserver start...
+CoMsgHook initialised
+client connected lient mqttx_7475c6ed from 172.28.64.1:63622
+OnConnectAuthenticate xin3 password:xinxin3
+client failed ACL check
+received from client client mqttx_7475c6ed payload {
+  "msg": "2222222222222222222222222222"
+}
+published to client client mqttx_7475c6ed payload {
+  "msg": "2222222222222222222222222222"
+}
+client failed ACL check
+received from client client mqttx_7475c6ed payload {
+  "msg": "2222222222222222222222222222"
+}
+published to client client mqttx_7475c6ed payload {
+  "msg": "2222222222222222222222222222"
+}
+client failed ACL check
+received from client client mqttx_7475c6ed payload {
+  "msg": "2222222222222222222222222222"
+}
+published to client client mqttx_7475c6ed payload {
+  "msg": "2222222222222222222222222222"
+}
+client failed ACL check
+received from client client mqttx_7475c6ed payload {
+  "msg": "2222222222222222222222222222"
+}
+published to client client mqttx_7475c6ed payload {
+  "msg": "2222222222222222222222222222"
+}
+client connected lient mqttx_2f66b976 from 172.28.64.1:63641
+OnConnectAuthenticate xin2 password:xxx2
+client failed ACL check
+received from client client mqttx_7475c6ed payload {
+  "msg": "2222222222222222222222222222"
+}
+published to client client mqttx_7475c6ed payload {
+  "msg": "2222222222222222222222222222"
+}
+client failed ACL check
+received from client client mqttx_7475c6ed payload {
+  "msg": "2222222222222222222222222222"
+}
+published to client client mqttx_7475c6ed payload {
+  "msg": "2222222222222222222222222222"
+}
+client failed ACL check
+received from client client mqttx_7475c6ed payload {
+  "msg": "2222222222222222222222222222"
+}
+published to client client mqttx_7475c6ed payload {
+  "msg": "2222222222222222222222222222"
+}
+client connected lient mqttx_56fe974f from 172.28.64.1:63652
+OnConnectAuthenticate xin1 password:xxxx
+client failed ACL check
+subscribed qos=[0]%!(EXTRA string=client, string=mqttx_56fe974f, string=filters, packets.Subscriptions=[{[] testtopic/# 0 map[] 0 0 false false false}])
+client failed ACL check
+received from client client mqttx_7475c6ed payload {
+  "msg": "2222222222222222222222222222"
+}
+client failed ACL check
+published to client client mqttx_7475c6ed payload {
+  "msg": "2222222222222222222222222222"
+}
+[DEBUG] 2023/09/09 16:55:14 main.go:32 msgserver try to close...
+client disconnected + client mqttx_7475c6ed expire true, erro:read tcp 172.28.73.159:1884->172.28.64.1:63622: use of closed network connection
+client disconnected + client mqttx_2f66b976 expire true, erro:read tcp 172.28.73.159:1883->172.28.64.1:63641: use of closed network connection
+client disconnected + client mqttx_56fe974f expire true, erro:read tcp 172.28.73.159:1883->172.28.64.1:63652: use of closed network connection
+[DEBUG] 2023/09/09 16:55:14 main.go:34 msgserver closed...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/09/09 16:57:01 main.go:21 msgserver start...
+CoMsgHook initialised
+client connected lient mqttx_2f66b976 from 172.28.64.1:63773
+OnConnectAuthenticate xin2 password:xxx2
+client connected lient mqttx_7475c6ed from 172.28.64.1:63772
+OnConnectAuthenticate xin3 password:xinxin3
+[DEBUG] 2023/09/09 16:57:08 main.go:32 msgserver try to close...
+client disconnected + client mqttx_2f66b976 expire true, erro:read tcp 172.28.73.159:1883->172.28.64.1:63773: use of closed network connection
+client disconnected + client mqttx_7475c6ed expire true, erro:read tcp 172.28.73.159:1884->172.28.64.1:63772: use of closed network connection
+[DEBUG] 2023/09/09 16:57:08 main.go:34 msgserver closed...

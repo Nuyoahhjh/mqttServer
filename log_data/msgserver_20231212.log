@@ -1,0 +1,542 @@
+-----------------------New Log-----------------------------
+[DEBUG] 2023/12/12 10:31:41 main.go:25 msgserver start...
+CoMsgHook initialised
+subscribed qos=[0]%!(EXTRA string=client, string=inline, string=filters, packets.Subscriptions=[{[] codesk/admin/# 1 map[] 0 0 false false false}])
+subscribed qos=[0]%!(EXTRA string=client, string=inline, string=filters, packets.Subscriptions=[{[] codesk/report/# 2 map[] 0 0 false false false}])
+client connected lient mqttx_7763729d from 192.168.100.243:60644
+OnConnectAuthenticate  password:
+OnSessionEstablished  id:mqttx_7763729d
+subscribed qos=[0]%!(EXTRA string=client, string=mqttx_7763729d, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+[DEBUG] 2023/12/12 10:39:47 main.go:48 msgserver try to close...
+client disconnected + client mqttx_7763729d expire true, erro:read tcp 192.168.100.243:1883->192.168.100.243:60644: use of closed network connection
+[DEBUG] 2023/12/12 10:39:47 main.go:51 msgserver closed...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/12/12 10:39:58 main.go:28 msgserver start...
+CoMsgHook initialised
+subscribed qos=[0]%!(EXTRA string=client, string=inline, string=filters, packets.Subscriptions=[{[] codesk/admin/# 1 map[] 0 0 false false false}])
+subscribed qos=[0]%!(EXTRA string=client, string=inline, string=filters, packets.Subscriptions=[{[] codesk/report/# 2 map[] 0 0 false false false}])
+client connected lient mqttx_7763729d from 192.168.100.243:61032
+OnConnectAuthenticate  password:
+OnSessionEstablished  id:mqttx_7763729d
+subscribed qos=[0]%!(EXTRA string=client, string=mqttx_7763729d, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+[DEBUG] 2023/12/12 10:46:04 main.go:57 msgserver try to close...
+client disconnected + client mqttx_7763729d expire true, erro:read tcp 192.168.100.243:1883->192.168.100.243:61032: use of closed network connection
+[DEBUG] 2023/12/12 10:46:04 main.go:60 msgserver closed...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/12/12 10:59:11 main.go:28 msgserver start...
+CoMsgHook initialised
+subscribed qos=[0]%!(EXTRA string=client, string=inline, string=filters, packets.Subscriptions=[{[] codesk/admin/# 1 map[] 0 0 false false false}])
+subscribed qos=[0]%!(EXTRA string=client, string=inline, string=filters, packets.Subscriptions=[{[] codesk/report/# 2 map[] 0 0 false false false}])
+client connected lient mqttjs_ac2aace9 from 192.168.100.243:62786
+OnConnectAuthenticate devices2 password:123456
+OnSessionEstablished  id:mqttjs_ac2aace9
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_ac2aace9, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client connected lient mqttjs_c9a965b2 from 192.168.100.243:62867
+OnConnectAuthenticate devices2 password:123456
+OnSessionEstablished  id:mqttjs_c9a965b2
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_c9a965b2, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_c9a965b2 expire true, erro:websocket: close 1001 (going away)
+client disconnected + client mqttjs_ac2aace9 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_6af3b1f9 from 192.168.100.243:62874
+OnConnectAuthenticate devices2 password:123456
+OnSessionEstablished  id:mqttjs_6af3b1f9
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_6af3b1f9, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client connected lient mqttx_7763729d from 192.168.100.243:62919
+OnConnectAuthenticate  password:
+OnSessionEstablished  id:mqttx_7763729d
+subscribed qos=[0]%!(EXTRA string=client, string=mqttx_7763729d, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_6af3b1f9 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_b7f8d510 from 192.168.100.243:62950
+OnConnectAuthenticate devices2 password:123456
+OnSessionEstablished  id:mqttjs_b7f8d510
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_b7f8d510, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client connected lient mqttx_0fc89460 from 192.168.100.243:63240
+OnConnectAuthenticate  password:
+OnSessionEstablished  id:mqttx_0fc89460
+subscribed qos=[0]%!(EXTRA string=client, string=mqttx_0fc89460, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttx_7763729d expire true
+client connected lient mqttx_7763729d from 192.168.100.243:63396
+OnConnectAuthenticate  password:
+OnSessionEstablished  id:mqttx_7763729d
+subscribed qos=[0]%!(EXTRA string=client, string=mqttx_7763729d, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_b7f8d510 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_152b4334 from 192.168.100.243:63410
+OnConnectAuthenticate devices2 password:123456
+OnSessionEstablished  id:mqttjs_152b4334
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_152b4334, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client connected lient mqttjs_7d8ee8d6 from 192.168.100.243:63495
+OnConnectAuthenticate devices2 password:123456
+OnSessionEstablished  id:mqttjs_7d8ee8d6
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_7d8ee8d6, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client connected lient mqttjs_33aaaf0f from 192.168.100.243:63689
+OnConnectAuthenticate devices2 password:123456
+OnSessionEstablished  id:mqttjs_33aaaf0f
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_33aaaf0f, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_33aaaf0f expire true, erro:websocket: close 1001 (going away)
+client disconnected + client mqttjs_152b4334 expire true, erro:websocket: close 1001 (going away)
+client disconnected + client mqttjs_7d8ee8d6 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_e41a0858 from 192.168.100.243:63715
+OnConnectAuthenticate devices2 password:123456
+OnSessionEstablished  id:mqttjs_e41a0858
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_e41a0858, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client connected lient mqttjs_8094735b from 192.168.100.243:63747
+OnConnectAuthenticate devices2 password:123456
+OnSessionEstablished  id:mqttjs_8094735b
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_8094735b, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client connected lient mqttjs_9d6989f5 from 192.168.100.243:63755
+OnConnectAuthenticate devices2 password:123456
+OnSessionEstablished  id:mqttjs_9d6989f5
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_9d6989f5, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_8094735b expire true, erro:websocket: close 1001 (going away)
+client disconnected + client mqttjs_9d6989f5 expire true, erro:websocket: close 1001 (going away)
+client disconnected + client mqttjs_e41a0858 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_58c912db from 192.168.100.243:63774
+OnConnectAuthenticate devices2 password:123456
+OnSessionEstablished  id:mqttjs_58c912db
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_58c912db, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_58c912db expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_f2786062 from 192.168.100.243:63840
+OnConnectAuthenticate devices2 password:123456
+OnSessionEstablished  id:mqttjs_f2786062
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_f2786062, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_f2786062 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_118b1da3 from 192.168.100.243:63860
+OnConnectAuthenticate devices2 password:123456
+OnSessionEstablished  id:mqttjs_118b1da3
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_118b1da3, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttx_7763729d expire true
+client disconnected + client mqttx_0fc89460 expire true
+[DEBUG] 2023/12/12 11:22:49 main.go:57 msgserver try to close...
+client disconnected + client mqttjs_118b1da3 expire true, erro:read tcp 192.168.100.243:8083->192.168.100.243:63860: use of closed network connection
+[DEBUG] 2023/12/12 11:22:49 main.go:60 msgserver closed...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/12/12 11:22:59 main.go:28 msgserver start...
+CoMsgHook initialised
+client connected lient mqttjs_118b1da3 from 192.168.100.243:64570
+OnConnectAuthenticate devices2 password:123456
+subscribed qos=[0]%!(EXTRA string=client, string=inline, string=filters, packets.Subscriptions=[{[] codesk/admin/# 1 map[] 0 0 false false false}])
+subscribed qos=[0]%!(EXTRA string=client, string=inline, string=filters, packets.Subscriptions=[{[] codesk/report/# 2 map[] 0 0 false false false}])
+client connected lient mqttjs_118b1da3 from 192.168.100.243:64574
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64582
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64584
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64589
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64591
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64593
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64595
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64598
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64602
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64606
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64608
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64609
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64613
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64615
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64617
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64619
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64622
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64623
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64626
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64628
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64629
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64632
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64634
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64636
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64645
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64648
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64649
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64652
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64654
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64656
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64659
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_7d5887a6 from 192.168.100.243:64661
+OnConnectAuthenticate devices2 password:123456
+client connected lient mqttjs_2fdc9231 from 192.168.100.243:64669
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_2fdc9231
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_2fdc9231, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client connected lient mqttjs_a88e9362 from 192.168.100.243:59054
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_a88e9362
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_a88e9362, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_2fdc9231 expire true, erro:websocket: close 1001 (going away)
+client disconnected + client mqttjs_a88e9362 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_db6d7a54 from 192.168.100.243:59062
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_db6d7a54
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_db6d7a54, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_db6d7a54 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_9fa451ba from 192.168.100.243:59068
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_9fa451ba
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_9fa451ba, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_9fa451ba expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_2946591a from 192.168.100.243:59070
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_2946591a
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_2946591a, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_2946591a expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_ce4fc88b from 192.168.100.243:59074
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_ce4fc88b
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_ce4fc88b, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_ce4fc88b expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_daa56952 from 192.168.100.243:59219
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_daa56952
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_daa56952, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_daa56952 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_bb882a17 from 192.168.100.243:59462
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_bb882a17
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_bb882a17, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_bb882a17 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_95bd6311 from 192.168.100.243:59485
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_95bd6311
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_95bd6311, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_95bd6311 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_af04f07c from 192.168.100.243:59496
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_af04f07c
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_af04f07c, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client connected lient mqttjs_59fd2c9d from 192.168.100.243:59658
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_59fd2c9d
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_59fd2c9d, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client connected lient mqttjs_5c99ae61 from 192.168.100.243:59661
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_5c99ae61
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_5c99ae61, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client connected lient mqttjs_6d21ae7c from 192.168.100.243:59668
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_6d21ae7c
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_6d21ae7c, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_af04f07c expire true, erro:websocket: close 1001 (going away)
+client disconnected + client mqttjs_5c99ae61 expire true, erro:websocket: close 1001 (going away)
+client disconnected + client mqttjs_6d21ae7c expire true, erro:websocket: close 1001 (going away)
+client disconnected + client mqttjs_59fd2c9d expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_a37faf55 from 192.168.100.243:59762
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_a37faf55
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_a37faf55, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_a37faf55 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_cbb18ed1 from 192.168.100.243:59790
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_cbb18ed1
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_cbb18ed1, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_cbb18ed1 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_cd72d202 from 192.168.100.243:60063
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_cd72d202
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_cd72d202, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_cd72d202 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_4fc62f54 from 192.168.100.243:60123
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_4fc62f54
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_4fc62f54, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_4fc62f54 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_78bfefc4 from 192.168.100.243:60129
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_78bfefc4
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_78bfefc4, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_78bfefc4 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_ec3e93c8 from 192.168.100.243:60284
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_ec3e93c8
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_ec3e93c8, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client connected lient mqttjs_dda04164 from 192.168.100.243:60290
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_dda04164
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_dda04164, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_ec3e93c8 expire true, erro:websocket: close 1001 (going away)
+client disconnected + client mqttjs_dda04164 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_c0f4d20c from 192.168.100.243:60306
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_c0f4d20c
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_c0f4d20c, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_c0f4d20c expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_eb64cad8 from 192.168.100.243:60333
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_eb64cad8
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_eb64cad8, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_eb64cad8 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_b3438e3b from 192.168.100.243:60345
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_b3438e3b
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_b3438e3b, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client connected lient mqttjs_957dd5e1 from 192.168.100.243:60353
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_957dd5e1
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_957dd5e1, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_957dd5e1 expire true, erro:websocket: close 1001 (going away)
+client disconnected + client mqttjs_b3438e3b expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_a542e07f from 192.168.100.243:60448
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_a542e07f
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_a542e07f, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_a542e07f expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_2d3720e4 from 192.168.100.243:60460
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_2d3720e4
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_2d3720e4, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_2d3720e4 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_8cb62f9d from 192.168.100.243:60518
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_8cb62f9d
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_8cb62f9d, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_8cb62f9d expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_cfa9af96 from 192.168.100.243:60570
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_cfa9af96
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_cfa9af96, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client connected lient mqttjs_997a419b from 192.168.100.243:60652
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_997a419b
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_997a419b, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_997a419b expire true, erro:websocket: close 1001 (going away)
+client disconnected + client mqttjs_cfa9af96 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_8f3be51b from 192.168.100.243:60778
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_8f3be51b
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_8f3be51b, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_8f3be51b expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_d04b4605 from 192.168.100.243:60807
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_d04b4605
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_d04b4605, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client connected lient mqttjs_11f5f475 from 192.168.100.243:61065
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_11f5f475
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_11f5f475, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_d04b4605 expire true, erro:read tcp 192.168.100.243:8083->192.168.100.243:60807: i/o timeout
+client disconnected + client mqttjs_11f5f475 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_1af9e24f from 192.168.100.243:61377
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_1af9e24f
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_1af9e24f, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client connected lient mqttjs_24a52ee1 from 192.168.100.243:62448
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_24a52ee1
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_24a52ee1, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_24a52ee1 expire true, erro:websocket: close 1001 (going away)
+client disconnected + client mqttjs_1af9e24f expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_43f695e5 from 192.168.100.243:62456
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_43f695e5
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_43f695e5, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_43f695e5 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_949f8d54 from 192.168.100.243:62488
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_949f8d54
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_949f8d54, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_949f8d54 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_a7460335 from 192.168.100.243:62492
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_a7460335
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_a7460335, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_a7460335 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_9f290d77 from 192.168.100.243:62496
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_9f290d77
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_9f290d77, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_9f290d77 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_c6e10404 from 192.168.100.243:62507
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_c6e10404
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_c6e10404, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_c6e10404 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_23150112 from 192.168.100.243:62511
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_23150112
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_23150112, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_23150112 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_86325bd6 from 192.168.100.243:62527
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_86325bd6
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_86325bd6, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_86325bd6 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_ab4ecbb3 from 192.168.100.243:62530
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_ab4ecbb3
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_ab4ecbb3, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_ab4ecbb3 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_566a41c5 from 192.168.100.243:62534
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_566a41c5
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_566a41c5, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_566a41c5 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_7b8c60fb from 192.168.100.243:62538
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_7b8c60fb
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_7b8c60fb, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_7b8c60fb expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_4e6271b7 from 192.168.100.243:62754
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_4e6271b7
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_4e6271b7, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_4e6271b7 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_e5551dcb from 192.168.100.243:62809
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_e5551dcb
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_e5551dcb, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_e5551dcb expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_1ef4cff1 from 192.168.100.243:62895
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_1ef4cff1
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_1ef4cff1, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_1ef4cff1 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_96ad0af2 from 192.168.100.243:62905
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_96ad0af2
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_96ad0af2, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_96ad0af2 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_dd44b72f from 192.168.100.243:62914
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_dd44b72f
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_dd44b72f, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_dd44b72f expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_6cfcc250 from 192.168.100.243:63521
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_6cfcc250
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_6cfcc250, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_6cfcc250 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_8ae6ad43 from 192.168.100.243:63546
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_8ae6ad43
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_8ae6ad43, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_8ae6ad43 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_3de03090 from 192.168.100.243:63584
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_3de03090
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_3de03090, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client connected lient mqttjs_34df7df8 from 192.168.100.152:58494
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_34df7df8
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_34df7df8, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_34df7df8 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_b705cbff from 192.168.100.152:56412
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_b705cbff
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_b705cbff, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_b705cbff expire true, erro:read tcp 192.168.100.243:8083->192.168.100.152:56412: wsarecv: An existing connection was forcibly closed by the remote host.
+[DEBUG] 2023/12/12 15:32:30 main.go:57 msgserver try to close...
+client disconnected + client mqttjs_3de03090 expire true, erro:read tcp 192.168.100.243:8083->192.168.100.243:63584: use of closed network connection
+[DEBUG] 2023/12/12 15:32:31 main.go:60 msgserver closed...
+-----------------------New Log-----------------------------
+[DEBUG] 2023/12/12 15:32:43 main.go:28 msgserver start...
+CoMsgHook initialised
+subscribed qos=[0]%!(EXTRA string=client, string=inline, string=filters, packets.Subscriptions=[{[] codesk/admin/# 1 map[] 0 0 false false false}])
+subscribed qos=[0]%!(EXTRA string=client, string=inline, string=filters, packets.Subscriptions=[{[] codesk/report/# 2 map[] 0 0 false false false}])
+client connected lient mqttjs_3de03090 from 192.168.100.243:64203
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_3de03090
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_3de03090, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_3de03090 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_73e4464f from 192.168.100.243:64346
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_73e4464f
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_73e4464f, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_73e4464f expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_efd26eb7 from 192.168.100.243:64575
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_efd26eb7
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_efd26eb7, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_efd26eb7 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_52e0ca7f from 192.168.100.243:64824
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_52e0ca7f
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_52e0ca7f, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_52e0ca7f expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_051026d5 from 192.168.100.243:64978
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_051026d5
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_051026d5, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_051026d5 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_dbffb190 from 192.168.100.243:65006
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_dbffb190
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_dbffb190, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client connected lient mqttjs_8bf97020 from 192.168.100.243:65177
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_8bf97020
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_8bf97020, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_dbffb190 expire true, erro:read tcp 192.168.100.243:8083->192.168.100.243:65006: i/o timeout
+client disconnected + client mqttjs_8bf97020 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_ede6a28b from 192.168.100.243:65336
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_ede6a28b
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_ede6a28b, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_ede6a28b expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_a4beee88 from 192.168.100.243:65346
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_a4beee88
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_a4beee88, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_a4beee88 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_7503f8ad from 192.168.100.243:65466
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_7503f8ad
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_7503f8ad, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_7503f8ad expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_cdce22ba from 192.168.100.243:65483
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_cdce22ba
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_cdce22ba, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_cdce22ba expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_d05e3855 from 192.168.100.243:49295
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_d05e3855
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_d05e3855, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_d05e3855 expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_af0b6b8b from 192.168.100.243:49400
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_af0b6b8b
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_af0b6b8b, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_af0b6b8b expire true, erro:websocket: close 1001 (going away)
+client connected lient mqttjs_c6fc227b from 192.168.100.243:59045
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_c6fc227b
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_c6fc227b, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client connected lient mqttjs_13d232d9 from 192.168.100.243:59080
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_13d232d9
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_13d232d9, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
+client disconnected + client mqttjs_13d232d9 expire true, erro:websocket: close 1001 (going away)
+-----------------------New Log-----------------------------
+[DEBUG] 2023/12/12 17:20:50 main.go:28 msgserver start...
+CoMsgHook initialised
+subscribed qos=[0]%!(EXTRA string=client, string=inline, string=filters, packets.Subscriptions=[{[] codesk/admin/# 1 map[] 0 0 false false false}])
+subscribed qos=[0]%!(EXTRA string=client, string=inline, string=filters, packets.Subscriptions=[{[] codesk/report/# 2 map[] 0 0 false false false}])
+client connected lient mqttjs_c6fc227b from 192.168.100.243:60006
+OnConnectAuthenticate test password:123456
+OnSessionEstablished  id:mqttjs_c6fc227b
+subscribed qos=[0]%!(EXTRA string=client, string=mqttjs_c6fc227b, string=filters, packets.Subscriptions=[{[] testtopic/123 0 map[] 0 0 false false false}])
